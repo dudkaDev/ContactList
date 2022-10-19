@@ -20,10 +20,10 @@ struct Person {
     static func getContactList() -> [Person] {
         var persons: [Person] = []
         
-        let names = DataManager().names.shuffled()
-        let surnames = DataManager().surnames.shuffled()
-        let emails = DataManager().emails.shuffled()
-        let numbers = DataManager().numbers.shuffled()
+        let names = DataStore().names.shuffled()
+        let surnames = DataStore().surnames.shuffled()
+        let emails = DataStore().emails.shuffled()
+        let numbers = DataStore().numbers.shuffled()
         
         let iterationCount = names.count
         

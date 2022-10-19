@@ -14,7 +14,7 @@
 		5526B46A28FEA29800BD4EFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5526B46828FEA29800BD4EFA /* LaunchScreen.storyboard */; };
 		5526B47528FEA49700BD4EFA /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5526B47428FEA49700BD4EFA /* ContactListViewController.swift */; };
 		5526B47828FEA5FE00BD4EFA /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5526B47728FEA5FE00BD4EFA /* Person.swift */; };
-		5526B47B28FEAF1A00BD4EFA /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5526B47A28FEAF1A00BD4EFA /* DataManager.swift */; };
+		5526B47B28FEAF1A00BD4EFA /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5526B47A28FEAF1A00BD4EFA /* DataStore.swift */; };
 		5526B48228FEC9F200BD4EFA /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5526B48128FEC9F200BD4EFA /* ContactDetailViewController.swift */; };
 		55F54E5828FFE42800A49020 /* DetailListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F54E5728FFE42800A49020 /* DetailListViewController.swift */; };
 		55F54E5A28FFE69800A49020 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F54E5928FFE69800A49020 /* TabBarViewController.swift */; };
@@ -30,7 +30,7 @@
 		5526B46B28FEA29800BD4EFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5526B47428FEA49700BD4EFA /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
 		5526B47728FEA5FE00BD4EFA /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
-		5526B47A28FEAF1A00BD4EFA /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		5526B47A28FEAF1A00BD4EFA /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		5526B48128FEC9F200BD4EFA /* ContactDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
 		55F54E5728FFE42800A49020 /* DetailListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListViewController.swift; sourceTree = "<group>"; };
 		55F54E5928FFE69800A49020 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
@@ -117,7 +117,7 @@
 		5526B47928FEAEF800BD4EFA /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				5526B47A28FEAF1A00BD4EFA /* DataManager.swift */,
+				5526B47A28FEAF1A00BD4EFA /* DataStore.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -196,7 +196,7 @@
 				55F54E5A28FFE69800A49020 /* TabBarViewController.swift in Sources */,
 				5526B45E28FEA29600BD4EFA /* AppDelegate.swift in Sources */,
 				55F54E5828FFE42800A49020 /* DetailListViewController.swift in Sources */,
-				5526B47B28FEAF1A00BD4EFA /* DataManager.swift in Sources */,
+				5526B47B28FEAF1A00BD4EFA /* DataStore.swift in Sources */,
 				5526B46028FEA29600BD4EFA /* SceneDelegate.swift in Sources */,
 				5526B47828FEA5FE00BD4EFA /* Person.swift in Sources */,
 				5526B48228FEC9F200BD4EFA /* ContactDetailViewController.swift in Sources */,
