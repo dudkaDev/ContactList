@@ -71,7 +71,7 @@
 				5526B47928FEAEF800BD4EFA /* Services */,
 				5526B47228FEA2DE00BD4EFA /* Storyboards */,
 				5526B47128FEA2C300BD4EFA /* App */,
-				5526B46628FEA29800BD4EFA /* Assets.xcassets */,
+				55F54E5B2902B1E500A49020 /* Resourses */,
 			);
 			path = ContactList;
 			sourceTree = "<group>";
@@ -120,6 +120,14 @@
 				5526B47A28FEAF1A00BD4EFA /* DataStore.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		55F54E5B2902B1E500A49020 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				5526B46628FEA29800BD4EFA /* Assets.xcassets */,
+			);
+			path = Resourses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

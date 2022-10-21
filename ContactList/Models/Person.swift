@@ -17,13 +17,17 @@ struct Person {
         "\(name) \(surname)"
     }
     
+    var rows: [String] {
+        [number, email]
+    }
+    
     static func getContactList() -> [Person] {
         var persons: [Person] = []
         
-        let names = DataStore().names.shuffled()
-        let surnames = DataStore().surnames.shuffled()
-        let emails = DataStore().emails.shuffled()
-        let numbers = DataStore().numbers.shuffled()
+        let names = DataStore.shared.names.shuffled()
+        let surnames = DataStore.shared.surnames.shuffled()
+        let emails = DataStore.shared.emails.shuffled()
+        let numbers = DataStore.shared.numbers.shuffled()
         
         let iterationCount = names.count
         

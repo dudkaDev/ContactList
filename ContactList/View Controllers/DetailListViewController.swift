@@ -16,7 +16,7 @@ class DetailListViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        2
+        persons[section].rows.count
     }
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
@@ -25,6 +25,7 @@ class DetailListViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "contact", for: indexPath)
+        
         var content = cell.defaultContentConfiguration()
         let person = persons[indexPath.section]
         
@@ -37,6 +38,11 @@ class DetailListViewController: UITableViewController {
             content.text = person.email
         }
         cell.contentConfiguration = content
+        
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
     }
 }
